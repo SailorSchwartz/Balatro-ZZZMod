@@ -1,0 +1,9 @@
+{
+    "id": "ZZZMod",
+    "name": "ZZZ Mod",
+    "author": ["Sailor_Schwartz"],
+    "description": "Zenless Zone Zero mod with cool zenless stuff",
+    "prefix": "zzzm",
+    "main_file": "main.lua",
+    "version": "0.0.1"
+}
