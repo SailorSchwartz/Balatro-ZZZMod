@@ -28,13 +28,10 @@ SMODS.Joker {
                         dollars = math.floor((newdollars) / 2),
                         delay = 0.5,
                         SMODS.destroy_cards(context.other_card)
-                        
+                     
                 }
             end
         end
     end
 end
 }
-
-
---deletes last card of first played hand and gives half its value in dollars

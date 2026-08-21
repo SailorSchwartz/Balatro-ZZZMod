@@ -31,7 +31,7 @@ return {
                 text = {
                     "Nekomata attacks from behind!",
                     " ",
-                    "Destroys final played card on final hand of round and gives half of its {C:chips}Chips{} as {C:money}Money{}."
+                    "Destroys final played card of hand and gives half of its {C:chips}Chips{} as {C:money}Money{}."
                 }
             }
         }
