@@ -3,10 +3,10 @@
 --2x is 142 x 190
 
 SMODS.Atlas {
-    key = 'placeholders',
-    path = 'placeholders.png',
-    px = 71,
-    py = 95
+    key = 'zzzchars',
+    path = 'zzzchars.png',
+    px = 142,
+    py = 190
 }
 
 

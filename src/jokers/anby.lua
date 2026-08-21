@@ -1,27 +1,28 @@
 SMODS.Joker {
-    key = 'nicole',
+    key = 'anby',
     atlas = 'zzzchars',
     pos = {
-        x = 0,
+        x = 2,
         y = 0
     },
     config = {
         extra = {
-            xmult = 1.4
+            mult = 0
         }
     },
-    rarity = 2,
-    cost = 8,
+    rarity = 1,
+    cost = 4,
     loc_vars = function (self, info_queue, card)
         return {
-            vars = {card.ability.extra.xmult
+            vars = {card.ability.extra.mult
            }
         }
     end,
     calculate = function(self, card, context)
         if context.individual and context.cardarea == G.play and context.other_card == context.scoring_hand[table_length(context.scoring_hand)] then
+            local newmult = G.GAME.current_round.hands_left + G.GAME.current_round.discards_left
             return {
-                xmult = card.ability.extra.xmult
+                mult = newmult
             }
         end
     end
